@@ -12,7 +12,7 @@
     --light-color: #f8fafc;
     --text-color: #334155;
     --border-color: #e2e8f0;
-    --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient: linear-gradient(135deg, #FAEF53 0%, #764ba2 100%);
     --gradient-alt: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
 }
 
@@ -97,7 +97,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #FAEF53 0%, #764ba2 100%);
     position: relative;
     overflow: hidden;
     padding: 100px 20px 50px;
