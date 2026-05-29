@@ -6,14 +6,14 @@
 }
 
 :root {
-    --primary-color: #FAEF53;
-    --secondary-color: #FAEF53;
+    --primary-color: #D4A017;
+    --secondary-color: #E1AD01;
     --dark-color: #1e293b;
     --light-color: #f8fafc;
     --text-color: #334155;
     --border-color: #e2e8f0;
-    --gradient: linear-gradient(135deg, #FAEF53 0%, #FAEF53 100%);
-    --gradient-alt: linear-gradient(135deg, #FAEF53 0%, #FAEF53 100%);
+    --gradient: linear-gradient(135deg, #D4A017 0%, #E1AD01 100%);
+    --gradient-alt: linear-gradient(135deg, #FFDB58 0%, #DAA520 100%);
 }
 
 body {
@@ -97,7 +97,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #FAEF53 0%, #FAEF53 100%);
+    background: linear-gradient(135deg, #D4A017 0%, #E1AD01 100%);
     position: relative;
     overflow: hidden;
     padding: 100px 20px 50px;
@@ -376,15 +376,15 @@ body {
 }
 
 .portfolio-item:nth-child(2) .portfolio-image {
-    background: linear-gradient(135deg, #FAEF53 0%, #FAEF53 100%);
+    background: linear-gradient(135deg, #FFDB58 0%, #E1AD01 100%);
 }
 
 .portfolio-item:nth-child(3) .portfolio-image {
-    background: linear-gradient(135deg, #FAEF53 0%, #FAEF53 100%);
+    background: linear-gradient(135deg, #DAA520 0%, #B8860B 100%);
 }
 
 .portfolio-item:nth-child(4) .portfolio-image {
-    background: linear-gradient(135deg, #FAEF53 0%, #FAEF53 100%);
+    background: linear-gradient(135deg, #F0E68C 0%, #DAA520 100%);
 }
 
 .portfolio-overlay {
