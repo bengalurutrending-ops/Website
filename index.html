@@ -206,36 +206,43 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's Grow Together</h2>
-            <p class="section-subtitle">Ready to boost your social media presence? Get in touch!</p>
-            <div class="contact-content">
-                <form action="https://formsubmit.co/bengalurutrending@gmail.com" method="POST">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Company Name">
-                    </div>
-                    <div class="form-group">
-                        <select required>
-                            <option value="">Select Service</option>
-                            <option value="strategy">Social Media Strategy</option>
-                            <option value="content">Content Creation</option>
-                            <option value="ads">Paid Advertising</option>
-                            <option value="management">Community Management</option>
-                            <option value="influencer">Influencer Marketing</option>
-                            <option value="analytics">Analytics & Reporting</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Tell us about your project" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
+    <div class="container">
+        <h2 class="section-title">Let's Grow Together</h2>
+        <p class="section-subtitle">Ready to boost your social media presence? Get in touch!</p>
+        <div class="contact-content">
+            <form action="https://formsubmit.co/bengalurutrending@gmail.com" method="POST">
+                <!-- Optional: Keeps users on your site instead of showing a FormSubmit thank you page -->
+                <!-- <input type="hidden" name="_next" value="https://yourwebsite.com"> -->
+
+                <div class="form-group">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Company" placeholder="Company Name">
+                </div>
+                <div class="form-group">
+                    <select name="Requested_Service" required>
+                        <option value="">Select Service</option>
+                        <option value="strategy">Social Media Strategy</option>
+                        <option value="content">Content Creation</option>
+                        <option value="ads">Paid Advertising</option>
+                        <option value="management">Community Management</option>
+                        <option value="influencer">Influencer Marketing</option>
+                        <option value="analytics">Analytics & Reporting</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="Project_Details" placeholder="Tell us about your project" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
                 <div class="contact-info">
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
